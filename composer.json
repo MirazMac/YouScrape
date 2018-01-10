@@ -1,0 +1,22 @@
+{
+    "name": "mirazmac/youscrape",
+    "description": "Unofficial Public YouTube Scrapper",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "rmccue/requests": "^1.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miraz Mac",
+            "email": "mirazmac@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MirazMac\\YouScrape\\": "src/"
+        }
+    }
+}
