@@ -52,7 +52,7 @@ try {
     exit;
 }
 
-print_r($single->getAll());
+var_dump($single);
 
 ```
 
