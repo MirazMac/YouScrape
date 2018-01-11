@@ -8,7 +8,6 @@
 
 require '../vendor/autoload.php';
 
-use MirazMac\YouScrape\Settings;
 use MirazMac\YouScrape\YouScrape;
 
 $token = isset($_GET['token']) ? $_GET['token'] : null;
