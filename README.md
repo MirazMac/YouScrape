@@ -17,6 +17,11 @@ Download the latest release from [Releases](https://github.com/mirazmac/YouScrap
 require 'src/autoload.php';
 ```
 
+### Limitations
+* You can't limit or change the amount of results per page
+* It depends on YouTube's internal ajax endpoints, as a result it can only show the information the endpoint provides.
+* Its illegal and YouTube may block your IP if you send too many requests
+
 
 ## Usage
 Check **examples** folder for complete usage examples.
@@ -89,3 +94,8 @@ try {
 print_r($playlists->getAll());
 
 ```
+
+## Todos
+* Implement tests
+* Run a benchmark to see if it gets blocked on too heavy requests
+* Better and complete documentation
