@@ -9,14 +9,6 @@ YouTube Public Data Scrapper
 composer require mirazmac/youscrape
 ```
 
-### Manual Install
-
-Download the latest release from [Releases](https://github.com/mirazmac/YouScrape/releases). Extract and require **src/autoload.php** in your code. But it's highly recommended to use [Composer](http://getcomposer.org).
-
-```php
-require 'src/autoload.php';
-```
-
 ### Limitations
 * You can't limit or change the amount of results per page
 * It depends on YouTube's internal ajax endpoints, as a result it can only show the information the endpoint provides.
