@@ -22,6 +22,7 @@ echo "Title \t : \t " . $single->getTitle() . "<hr>";
 echo "ID \t : \t " . $single->getID() . "<hr>";
 echo "Thumbnail \t : \t " . $single->getThumbnail() . "<hr>";
 echo "Duration \t : \t " . $single->getDuration() . "<hr>";
+echo "Description \t : \t " . $single->getDescription() . "<hr>";
 echo "Length in seconds \t : \t " . $single->getLength() . "<hr>";
 echo "Likes \t : \t " . $single->getLikesCount() . "<hr>";
 echo "Dislikes \t : \t " . $single->getDislikesCount() . "<hr>";
